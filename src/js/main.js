@@ -3,7 +3,8 @@ function getInput() {
     let name = document.getElementById("name").value
     let age = document.getElementById("age").value
     let response = document.getElementById("response")
-    document.getElementById("resp").style.boxShadow = "0px 0px 10px 10px white"
+    document.getElementById("response_container").style.boxShadow = "0px 0px 10px 10px #2531db"
+    document.getElementById("response_container").style.backdropFilter="blur 80px"
     age = parseInt(age)
 
 

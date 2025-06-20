@@ -15,28 +15,29 @@
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="15days">
     <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/fonts.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <h1> Sistema Interactivo de Mensajes </h1>
+        <h1 class="bebas-neue-regular"> Sistema Interactivo de Mensajes </h1>
     </header>
     <main>
         <section class="card-section glass-effect">
             <article class="container_input">
-                <label for="">Ingrese </label>
+                <label for="" > <p class="edu-nsw-act-cursive-uniquifier">Ingrese</p> </label>
                 <input  type="text" id="name" placeholder="Ej: camilo" required>
             </article>
             <article class="container_input">
-                <label for="">Ingrese la Edad</label>
+                <label for=""><p class="edu-nsw-act-cursive-uniquifier">Ingrese la Edad</p></label>
                 <input  type="number" id="age" placeholder="Ej: 18" min="0" required>
             </article>
             <div class="btm_container">
-                <button onclick="getInput()">Enviar</button>
+                <button onclick="getInput()"> Enviar</button>
             </div>
         </section>
 
-        <section class="response_container" id="resp">
+        <section class="response_container" id="response_container">
             <div id="response">
                 
             </div>
@@ -47,5 +48,6 @@
             <span>© 2025. Todos los derechos reservados.</span>
         </section>
     </footer>
+    <script src="./src/js/main.js"></script>
 </body>
 </html>
