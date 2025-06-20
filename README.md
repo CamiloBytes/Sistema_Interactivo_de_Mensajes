@@ -1,15 +1,15 @@
-# Sistema Interactivo de Mensajes
+# Interactive Message System
 
-## Descripción
+## Description
 
-Este proyecto es una pequeña aplicación web que permite verificar si un usuario es mayor de edad (18 años o más) a través de un formulario simple. El usuario ingresa su nombre y edad, y el sistema muestra un mensaje dinámico indicando si cumple con la mayoría de edad.
+This project is a small web application that allows users to check if they are of legal age (18 years or older) through a simple form. The user enters their name and age, and the system displays a dynamic message indicating whether they meet the legal age requirement.
 
 ---
 
-## Instalación y Uso
+## Installation and Usage
 
-1. Clona o descarga el proyecto en tu computadora.
-2. Asegúrate de mantener la estructura de carpetas:
+1. Clone or download the project to your computer.
+2. Make sure to maintain the following folder structure:
 ```
 Sistema_Interactivo_de_Mensajes/
     ├── README.md   
@@ -24,22 +24,23 @@ Sistema_Interactivo_de_Mensajes/
             └── script.js
 ```
 
-3. Abre el archivo `index.html` en tu navegador favorito.
-4. Completa el formulario con tu nombre y edad.
-5. Presiona **Verificar** para ver si eres mayor de edad.
+3. Open the `index.html` file in your preferred browser.
+4. Fill in the form with your name and age.
+5. Click **Verify** to see if you are of legal age.
 
 ---
 
-## Tecnologías utilizadas
+## Technologies Used
 
-- **HTML5**: Estructura y formulario de entrada.
-- **CSS3**: Estilos básicos para presentación y diseño responsive.
-- **JavaScript (vanilla)**: Lógica para validar la edad y mostrar mensajes dinámicos.
+- **HTML5**: Structure and input form.
+- **CSS3**: Basic styles for layout and responsive design.
+- **Vanilla JavaScript**: Logic to validate age and display dynamic messages.
 
 ---
 
-## Contacto
+## Contact
 
-Para dudas o sugerencias, puedes contactarme en:  
-**Email:** tu-email@ejemplo.com  
-**GitHub:** https://github.com/tuusuario
+For questions or suggestions, feel free to contact me at:  
+**Email:** camiloandres02222@gmail.com  
+**GitHub:** https://github.com/CamiloBytes  
+**Link:** 
