@@ -18,6 +18,34 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <h1> Sistema Interactivo de Mensajes </h1>
+    </header>
+    <main>
+        <section class="card-section glass-effect">
+            <article class="container_input">
+                <label for="">Ingrese </label>
+                <input  type="text" id="name" placeholder="Ej: camilo" required>
+            </article>
+            <article class="container_input">
+                <label for="">Ingrese la Edad</label>
+                <input  type="number" id="age" placeholder="Ej: 18" min="0" required>
+            </article>
+            <div class="btm_container">
+                <button onclick="getInput()">Enviar</button>
+            </div>
+        </section>
+
+        <section class="response_container" id="resp">
+            <div id="response">
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <span>© 2025. Todos los derechos reservados.</span>
+        </section>
+    </footer>
 </body>
 </html>
