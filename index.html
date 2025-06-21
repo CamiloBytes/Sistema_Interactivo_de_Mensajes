@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- These are the meta tags of the page -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This project is a small web application that allows users to check if they are of legal age (18 years or older) through a simple form. The user enters their name and age, and the system displays a dynamic message indicating whether they meet the legal age requirement.">
     <meta name="keywords" content="system, Interactive, age, name">
-    <meta name="sitedomain" content="">
+    <meta name="sitedomain" content="https://camilobytes.github.io/Sistema_Interactivo_de_Mensajes/">
     <meta name="organization" content="CamiloBytes">
     <meta name="author" content="Camilo Andres Parra Luna">
     <meta name="designer" content="Camilo Andres Parra Luna">
@@ -14,40 +15,55 @@
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="15days">
+
+    <!-- Link to the CSS stylesheets -->
     <link rel="stylesheet" href="./src/css/styles.css">
     <link rel="stylesheet" href="./src/css/fonts.css">
     <title>Document</title>
 </head>
 <body>
+    <!-- The header contains the title -->
     <header>
         <h1 class="bebas-neue-regular"> Sistema Interactivo de Mensajes </h1>
     </header>
     <main>
-        <section class="card-section glass-effect">
+        <!-- This section is the container for the inputs and button -->
+        <section class="card-section glass-effect"> 
+
+            <!-- This article wraps the input to style it using CSS -->
             <article class="container_input">
                 <label for="" > <p class="edu-nsw-act-cursive-uniquifier">Ingrese</p> </label>
                 <input  type="text" id="name" placeholder="Ej: camilo" required>
             </article>
+
             <article class="container_input">
                 <label for=""><p class="edu-nsw-act-cursive-uniquifier">Ingrese la Edad</p></label>
                 <input  type="number" id="age" placeholder="Ej: 18" min="0" required>
             </article>
-            <div class="btm_container">
-                <button onclick="getInput()"> Enviar</button>
+
+            <!-- Container for the button, for CSS styling -->
+            <div class="btm_container" > 
+                <!-- The onclick event triggers the function that performs the validation -->
+                <button onclick="getInput()"> Enviar</button> 
             </div>
         </section>
 
         <section class="response_container" id="response_container">
-            <div id="response">
+            <!-- This section will display the response from the JavaScript function -->
+            <div id="response"> 
                 
             </div>
         </section>
     </main>
     <footer>
         <section>
-            <span> <p class="edu-nsw-act-cursive-uniquifier">© 2025. Todos los derechos reservados.</p></span>
+            <!-- This is the copyright section -->
+            <span> <p class="edu-nsw-act-cursive-uniquifier">© 2025. Todos los derechos reservados.</p></span> 
         </section>
     </footer>
+
+    <!-- Script that contains the main JavaScript logic -->
     <script src="./src/js/main.js"></script>
+
 </body>
 </html>
