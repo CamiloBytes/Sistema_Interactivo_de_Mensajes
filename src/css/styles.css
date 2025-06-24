@@ -8,7 +8,7 @@
 body {
     display: grid;
     height: 100vh;
-    background-image: url(/src/image/RegisterLogin.gif);
+    background-image: url(./src/image/RegisterLogin.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
